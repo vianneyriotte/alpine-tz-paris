@@ -53,3 +53,9 @@ git flow release track RELEASE
 ```sh
 git flow release finish RELEASE
 ```
+
+# Correctifs / Hotfixes
+
+```sh
+git flow hotfix start VERSION [BASENAME]
+```
