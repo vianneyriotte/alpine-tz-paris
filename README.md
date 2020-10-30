@@ -53,3 +53,9 @@ git flow release track RELEASE
 ```sh
 git flow release finish RELEASE
 ```
+
+# Terminer un hotfix
+
+```sh
+git flow hotfix finish VERSION
+```
