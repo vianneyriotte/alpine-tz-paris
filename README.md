@@ -6,11 +6,15 @@ Création de l'image:
 docker build -t node-alpine-ta-paris
 ```
 
+# Premier Pas 
+
 ## Initialisation
 
 ```sh
 git flow init
 ```
+
+# Fonctionnalités / Features
 
 ## Commencer une feature
 
@@ -29,3 +33,5 @@ git flow feature finish MYFEATURE
 ```sh
 git flow feature publish MYFEATURE
 ```
+
+# Livraison / Release
