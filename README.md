@@ -56,6 +56,14 @@ git flow release finish RELEASE
 
 # Correctifs / Hotfixes
 
+## Commencer un hotfix
+
 ```sh
 git flow hotfix start VERSION [BASENAME]
+```
+
+## Terminer un hotfix
+
+```sh
+git flow hotfix finish VERSION
 ```
