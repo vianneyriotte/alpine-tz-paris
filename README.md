@@ -32,6 +32,8 @@ git flow feature finish MYFEATURE
 
 ```sh
 git flow feature publish MYFEATURE
+# Suivre la fonctionnalité
+git flow feature track MYFEATURE
 ```
 
 # Livraison / Release
@@ -40,4 +42,14 @@ git flow feature publish MYFEATURE
 
 ```sh
 git flow release start RELEASE [BASE]
+# publier aux autres la branche de livraison
+git flow release publish RELEASE 
+# Suivre la livraison
+git flow release track RELEASE
+```
+
+## Terminer une livraison
+
+```sh
+git flow release finish RELEASE
 ```
