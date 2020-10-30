@@ -47,3 +47,9 @@ git flow release publish RELEASE
 # Suivre la livraison
 git flow release track RELEASE
 ```
+
+## Terminer une livraison
+
+```sh
+git flow release finish RELEASE
+```
