@@ -40,4 +40,6 @@ git flow feature publish MYFEATURE
 
 ```sh
 git flow release start RELEASE [BASE]
+# publier aux autres la branche de livraison
+git flow release publish RELEASE 
 ```
