@@ -35,3 +35,9 @@ git flow feature publish MYFEATURE
 ```
 
 # Livraison / Release
+
+## Commencer une livraison
+
+```sh
+git flow release start RELEASE [BASE]
+```
